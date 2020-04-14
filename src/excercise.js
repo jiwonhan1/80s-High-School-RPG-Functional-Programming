@@ -12,3 +12,6 @@ const recurseReverse = (sentence, reversedArr = [], counter = 0) => {
 }
 
 console.log(recurseReverse("I am a cat"));
+
+// Problem #2
+// Write a recursive function that concatenates "red green refactor" to a string X number of times, where X is the argument passed into the function. rgr(3) should return the following:
