@@ -15,3 +15,13 @@ console.log(recurseReverse("I am a cat"));
 
 // Problem #2
 // Write a recursive function that concatenates "red green refactor" to a string X number of times, where X is the argument passed into the function. rgr(3) should return the following:
+
+const recurseRefactor = (counts) => {
+  const redGreenRefactor = "red green refactor";
+  if (counts === 0) {
+    return "";
+  } else {
+    
+    return recurseRefactor(counts-1) + redGreenRefactor + " ";
+  }
+}
