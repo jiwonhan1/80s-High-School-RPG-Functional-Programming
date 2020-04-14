@@ -22,9 +22,6 @@ export const changeState = (prop) => {
 // stateChanger = storeState();
 export const lily = storeState();
 export const rose = storeState();
-export const daisy = storeState();
-export const marigold = storeState();
-export const lavender = storeState();
 
 //feed = changeState("feed");
 export const blueFood = changeState("soil")(5);
