@@ -40,7 +40,8 @@ Email jieunkang101@gmail.com or jiwon1.han@gmail.com with any questions, feedbac
 
 ## Technologies Used
 
-- Javascript
+- Webpack
+- Node.js
 
 ### License
 
