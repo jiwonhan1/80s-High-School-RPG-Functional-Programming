@@ -5,22 +5,22 @@ import './styles.css';
 import { storeState, stateChanger, blueFood, sunnyDay, enoughWater } from './plant.js';
 
 $(document).ready(function(){
-  
   $("form#plantNameForm").submit(function(event){
     event.preventDefault();
     var plantName = $("#textInput").val();
-    const plant = storeState(plantName);
-    const newState = plant(blueFood);
-    $('#plant-name').text(`${newState.name}'s Values`);
+    const plant = stateChanger(blueFood(plantName));
+
+    $('#plant-name').text(`${plant.name}'s Values`);
 
   });
   
   $('#feed').click(function() {
-    const newState = stateChanger(blueFood);
-    $('#soil-value').text(newState.soil);
+    // const newState = stateChanger(blueFood);
+    const plant = stateChanger(blueFood);
+    // newState = stateChanger(plant);
+    $('#soil-value').text(plant.soil);
     
   });
-
 
   $('#sunlight').click(function() {
     const newState = stateChanger(sunnyDay);
