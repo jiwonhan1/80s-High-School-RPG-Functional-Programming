@@ -19,23 +19,8 @@ export const changeState = (prop) => {
   }
 }
 
-// const plant = (name) => {
-//   const plantName = { name }
-//   let cu
-//   return (plantCurrentStoreStatus) => ({
-//     plantName, ...state
-//   })
-// }
-
-// const plant = (name) => {
-//   let plantName = { name }
-//   return (state) => ({
-//     plantName, ...state
-//   })
-// }
-
-
 export const stateChanger = storeState();
+const lily = storeState();
 
 
 //feed = changeState("feed");
