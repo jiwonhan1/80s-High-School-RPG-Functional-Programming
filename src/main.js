@@ -14,40 +14,40 @@ $(document).ready(function(){
 
   $('#lily').click(function() {
     event.preventDefault();
-    $('#plant-value').show();
-    $('#feed').click(function() {
+    $('#lily-value').show();
+    $('#lily-feed').click(function() {
       const lilyValue = lily(blueFood());
-      $('#soil-value').text(lilyValue.soil);    
+      $('#lily-soil').text(lilyValue.soil);    
     });
-    $('#sunlight').click(function() {
+    $('#lily-sunlight').click(function() {
       const lilyValue= lily(sunnyDay());
-      $('#sunlight-value').text(lilyValue.sunlight);
+      $('#lily-sunlight').text(lilyValue.sunlight);
     });
-    $('#water').click(function() {
+    $('#lily-water').click(function() {
       const lilyValue= lily(enoughWater());
-      $('#soil-water').text(lilyValue.water);
+      $('#lily-water').text(lilyValue.water);
     });
     //$('#plant-value').hide();
   })
 
   $('#rose').click(function() {
     event.preventDefault();
-    $('#plant-value').show();
+    $('#rose-value').show();
 
     // $('#soil-value').text(0);
     // $('#sunlight-value').text(0);
-    // $('#soil-water').text(0);
+    // $('#water-value').text(0);
     $('#feed').click(function() {
       const roseValue = rose(blueFood());
-      $('#soil-value').text(roseValue.soil);    
+      $('#rose-soil').text(roseValue.soil);    
     });
     $('#sunlight').click(function() {
       const roseValue = rose(sunnyDay());
-      $('#sunlight-value').text(roseValue.sunlight);
+      $('#rose-sunlight').text(roseValue.sunlight);
     });
     $('#water').click(function() {
       const roseValue = rose(enoughWater());
-      $('#soil-water').text(roseValue.water);
+      $('#rose-water').text(roseValue.water);
     });
     //$('#plant-value').hide();
   })
