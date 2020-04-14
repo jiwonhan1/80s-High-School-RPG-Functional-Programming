@@ -21,7 +21,7 @@ export const changeState = (prop) => {
 
 export const stateChanger = storeState(name);
 
-//feed = changeState("feed");
+const feed = changeState("feed");
 export const blueFood = changeState("soil")(5);
 
 //photosynthesis = changeState("sunlight");
