@@ -1,6 +1,7 @@
 # 80s High School RPG
 
-## By Andrew Philpott, Steven Fleming, Jose Amesquita and Jiwon Han Last updated April 16, 2020.
+## By Andrew Philpott, Steven Fleming, Jose Amesquita and Jiwon Han 
+Last updated April 16, 2020.
 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 ![LastCommit](https://img.shields.io/github/last-commit/Andrew-Philpott/80s-rpg-game)
