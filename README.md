@@ -14,7 +14,7 @@ Last updated April 16, 2020.
 
 #### 4/16/20 Work at Home Summary
 
-- test game mechanism with different character specs
+- Test game mechanism with different character specs
 
 ## Description
 
