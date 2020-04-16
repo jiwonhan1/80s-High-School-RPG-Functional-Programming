@@ -26,7 +26,6 @@ A 80's RPG game that nerd, jock and prep character fight each other. Each charac
 
 | spec behavior                                                                | input                            | output                          |
 | :--------------------------------------------------------------------------- | :------------------------------- | :------------------------------ |
-| this                                                                         | that                             | the other                       |
 | compare atheleticism between two Characters and return winner                | Nerd v Jock                      | Jock wins                       |
 | compare cool between two Characters and return winner                        | Nerd v Jock                      | Jock wins                       |
 | compare knowledge between two Characters and return winner                   | Nerd v Jock                      | Nerd wins                       |
