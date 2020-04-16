@@ -12,7 +12,7 @@ Last updated April 16, 2020.
 
 - Design characters in game and test specifications
 
-#### 4/15/20 Work at Home Summary
+#### 4/16/20 Work at Home Summary
 
 - test game mechanism with different character specs
 
