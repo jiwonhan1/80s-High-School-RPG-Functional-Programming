@@ -1,4 +1,4 @@
-# 80s High School RPG
+# 80s High School RPG with Functional Programming
 
 ## By Andrew Philpott, Steven Fleming, Jose Amesquita and Jiwon Han 
 Last updated April 16, 2020.
@@ -8,17 +8,17 @@ Last updated April 16, 2020.
 ![Languages](https://img.shields.io/github/languages/top/Andrew-Philpott/80s-rpg-game)
 [![MIT license](https://img.shields.io/badge/License-MIT-orange.svg)](https://lbesson.mit-license.org/)
 
-#### 4/15/20 Work at Home Summary
+#### 4/15/20 Functional Programming Work at Home Summary
 
 - Design characters in game and test specifications
 
-#### 4/16/20 Work at Home Summary
+#### 4/16/20 Functional Programming Work at Home Summary
 
 - Test game mechanism with different character specs
 
 ## Description
 
-A 80's RPG game that nerd, jock and prep character fight each other. Each character has their own special skills. If one character outnumbers other character's skill, that character wins!
+This RPG game made of functional programming codes. A 80's RPG game that nerd, jock and prep character fight each other. Each character has their own special skills. If one character outnumbers other character's skill, that character wins!
 
 ## Specifications
 
