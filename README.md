@@ -1,34 +1,42 @@
-# [GrowPlant](https://github.com/jiwon-seattle/Grow-Plant.git)
+# 80s High School RPG
 
-#### Functional programming exercise at [Epicodus](https://www.epicodus.com/), 04.14.2020
-
-#### By **Jieun Kang and Jiwon Han**
+## By Andrew Philpott, Steven Fleming, Jose Amesquita and Jiwon Han Last updated April 16, 2020.
 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
-![LastCommit](https://img.shields.io/github/last-commit/jiwon-seattle/Grow-Plant)
-![Languages](https://img.shields.io/github/languages/top/jiwon-seattle/Grow-Plant)
+![LastCommit](https://img.shields.io/github/last-commit/Andrew-Philpott/80s-rpg-game)
+![Languages](https://img.shields.io/github/languages/top/Andrew-Philpott/80s-rpg-game)
 [![MIT license](https://img.shields.io/badge/License-MIT-orange.svg)](https://lbesson.mit-license.org/)
+
+#### 4/15/20 Work at Home Summary
+
+- Design characters in game and test specifications
+
+#### 4/15/20 Work at Home Summary
+
+- test game mechanism with different character specs
 
 ## Description
 
-**An application that a user is able to grow plants.**
+A 80's RPG game that nerd, jock and prep character fight each other. Each character has their own special skills. If one character outnumbers other character's skill, that character wins!
 
 ## Specifications
 
-<!-- Roman numerals are based on seven symbols:
-| Characters | Scrabble Values | 
-| :-------------     | :------------- | 
-| I | 1 |
-| V | 5 |
-| X | 10 |
-| L | 50 |
-| C | 100 |
-| D | 500 |
-| M | 1,000 | -->
+## SPECS
+
+| spec behavior                                                                | input                            | output                          |
+| :--------------------------------------------------------------------------- | :------------------------------- | :------------------------------ |
+| this                                                                         | that                             | the other                       |
+| compare atheleticism between two Characters and return winner                | Nerd v Jock                      | Jock wins                       |
+| compare cool between two Characters and return winner                        | Nerd v Jock                      | Jock wins                       |
+| compare knowledge between two Characters and return winner                   | Nerd v Jock                      | Nerd wins                       |
+| compare knowledge between two Characters of the same level and return winner | Nerd v Nerd                      | Nerds tie                       |
+| winning Characters increase their level 2                                    | Vitality: 10 => W                | Vitality: 12                    |
+| losing Characters decrease their level                                       | Vitality: 10 => L                | Vitality: 9                     |
+| If they tie, they both lose a level                                          | Vitality P1: 10, Vitality P2: 10 | Vitality P1: 11, Vitality P2:11 |
 
 ## Setup/Installation Requirements
 
-- Clone this [repository](https://github.com/jiwon-seattle/Grow-Plant.git)
+- Clone this [repository](https://github.com/Andrew-Philpott/80s-rpg-game.git)
 
 ## Known Bugs
 
@@ -36,7 +44,7 @@ No known bugs at this time.
 
 ## Support and contact details
 
-Email jieunkang101@gmail.com or jiwon1.han@gmail.com with any questions, feedbacks, or concerns.
+Email jiwon1.han@gmail.com with any questions, feedbacks, or concerns.
 
 ## Technologies Used
 
@@ -47,4 +55,4 @@ Email jieunkang101@gmail.com or jiwon1.han@gmail.com with any questions, feedbac
 
 This console application is licensed under the MIT license.
 
-Copyright (c) 2020 **Jieun Kang and Jiwon Han**
+Copyright (c) 2020 **Andrew Philpott, Steven Fleming, Jose Amesquita and Jiwon Han**

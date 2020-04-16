@@ -1,3 +1,8 @@
-/* #plant-value {
+#choosePage {
   display: none;
-} */
+}
+
+#introImg
+{
+background-image: url(../src/image/welcome.jpg)
+}
